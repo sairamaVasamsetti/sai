@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.cart-summary-container {
+  align-self: flex-end;
+}
+.cart-summary-value {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding-bottom: 4px;
+}
+@media screen and (min-width: 768px) {
+  .cart-summary-value {
+    font-size: 35px;
+  }
+}
+.total-value-label {
+  color: #616e7c;
+  font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  .total-value-label {
+    font-size: 30px;
+  }
+}
+.total-items {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-top: 0px;
+}
+.checkout-btn {
+  background-color: #0b69ff;
+  width: 100%;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+
+  cursor: pointer;
+  border-radius: 5px;
+}
+@media screen and (max-width: 768px) {
+  .desktop-view-checkout-btn {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mobile-view-checkout-btn {
+    display: none;
+  }
+}
